@@ -44,6 +44,7 @@ class SignupScreen extends StatelessWidget {
               ),
               CustomTextField(
                 label: 'CPF',
+                keyboardType: TextInputType.number,
                 controller: _controller.cpfController,
                 formatters: [Masks.cpf],
                 validator: Validators.cpfValidator,
@@ -51,6 +52,7 @@ class SignupScreen extends StatelessWidget {
               ),
               Obx(() => CustomTextField(
                 label: 'CEP',
+                keyboardType: TextInputType.number,
                 controller: _controller.cepController,
                 onChanged: _controller.searchCep,
                 formatters: [Masks.cep],
