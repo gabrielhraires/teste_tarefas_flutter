@@ -1,16 +1,14 @@
-# testepraticotasks
+# Teste Prático Mobile - Verzel
 
-Teste Prático Mobile - Verzel
+Aplicativo para cadastro de tarefas
 
-## Getting Started
+### Versões Utilizadas
 
-This project is a starting point for a Flutter application.
+- Flutter: 1.23.0-8.pre.96
+- Dart: 2.11.0
 
-A few resources to get you started if this is your first Flutter project:
+### Configuração e Execução
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Executar o comando `flutter pub get` para baixar as dependências.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Para rodar o aplicativo, executar o comando `flutter run` e então selecionar o dispositivo.
